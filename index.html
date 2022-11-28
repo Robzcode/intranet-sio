@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Icon ===== -->
+    <link rel="icon" type="logo" sizes="16x16" href="./CSS/img/logo.png">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./CSS/connexion.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== Script JS ===== -->
+    <script src="./JS/connexion.js" defer></script>
+
+    <!-- ===== Titre de la page ===== -->
+    <title>SJ - Intranet</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <i class='bx bx-user'></i>
+        </div>
+    
+        <!-- ===== Partie connexion ===== -->
+        <div class="tab-body" data-id="connexion">
+          <form>
+            <div class="row">
+              <i class="far fa-user"></i>
+              <!-- ===== Tapez l'identifiant ===== -->
+              <input type="identifiant" class="input" placeholder="Identifiant">
+            </div>
+            <div class="row">
+              <i class="fas fa-lock"></i>
+              <!-- ===== Tapez le mot de passe ===== -->
+              <input placeholder="Mot de Passe" type="password" class="input">
+            </div>
+            <!-- ===== DISCLAMER LE LIEN EST UNE BLAGUE | Quand on a boulié le mot de passe. ===== -->
+            <a href="https://youtu.be/uksRrB1XCXU" class="link">Mot de passe oublié ?</a>
+            <!-- ===== Bouton de connexion ===== -->
+            <button class="btn" type="button"><a href="./accueil.html" style="text-decoration: none; color: white;">Connexion</a></button>
+          </form>
+        </div>
+        
+        <!-- ===== Footer de la box de connexion ===== -->
+        <div class="tab-footer">
+          <a class="tab-link active" data-ref="connexion" href="javascript:void(0)">Connexion</a>
+          
+        </div>
+      </div>
+</body>

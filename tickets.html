@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Icon-->
+    <link rel="icon" type="logo" sizes="16x16" href="./CSS/img/logo.png">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== Titre de la page ===== -->
+    <title>SJ - Intranet</title>
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./CSS/img/logo.png" alt="logo">
+                </span>
+                <div class="text header-text">
+                    <span class="name">SJ Intranet</span>
+                    <span class="soustitre">Espace salariés</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle' ></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="cherche-box">
+                    
+                    <i class='bx bx-search-alt-2 icon' ></i>
+                    <input type="text" placeholder="Chercher...">
+                    
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="./accueil.html">
+                            <i class='bx bx-home-alt icon'></i>
+                            <span class="text nav-text">Accueil</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./données.html">
+                            <i class='bx bx-bar-chart-alt-2 icon'></i>
+                            <span class="text nav-text">Mes données</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./application.html">
+                            <i class='bx bxs-book-bookmark icon' ></i>
+                            <span class="text nav-text">Applications utiles</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./notes.html">
+                            <i class='bx bx-cloud-download icon'></i>
+                            <span class="text nav-text">Cloud</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./tickets.html">
+                            <i class='bx bx-stats icon' ></i>
+                            <span class="text nav-text">Tickets</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-message-dots icon' ></i>
+                            <span class="text nav-text">Communication</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon' ></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="./index.html">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Déconnexion</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon' ></i>
+                        <i class='bx bx-sun icon sun' ></i>
+                    </div>
+                    <span class="mode-text text">Mode nuit</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="tickets">
+
+        <div class="limiter">
+            <div class="container-table100">
+    
+                <div class="wrap-table100">
+                    <div class="table100">
+                        <table>
+                            <thead>
+                                <tr class="table100-head">
+                                    <th class="column4">Date</th>
+                                    <th class="column1">Objet</th>
+                                    <th class="column4">Heure Début</th>
+                                    <th class="column4">Heure Fin</th>
+                                    <th class="column4">Durée</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="column1">03/10/2016</th>
+                                    <th class="column2">Installation Borne Wifi Atelier</th>
+                                    <th class="column3">14:30</th>
+                                    <th class="column4">15:35</th>
+                                    <th class="column4">1:05</th>
+                                </tr>
+                                <tr>
+                                    <th class="column1">03/10/2016</th>
+                                    <th class="column2">Plus d'accès réseau sur poste Myriam</th>
+                                    <th class="column3">9:45</th>
+                                    <th class="column4">10:15</th>
+                                    <th class="column4">0:30</th>
+                                </tr>
+                                <tr>
+                                    <th class="column1">03/10/2016</th>
+                                    <th class="column2">Virus sur messagerie pièce jointe TNT</th>
+                                    <th class="column3">10:20</th>
+                                    <th class="column4">11:20</th>
+                                    <th class="column4">1:00</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">04/10/2016</th>
+                                    <th class="column2">Poste Mr JHEN : plus d'accès au serveur</th>
+                                    <th class="column3">14:40</th>
+                                    <th class="column4">15:30</th>
+                                    <th class="column4">0:50</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">05/10/2016</th>
+                                    <th class="column2">Changement de FAI - (ORANGE/OLEANE)</th>
+                                    <th class="column3">15:30</th>
+                                    <th class="column4">17:30</th>
+                                    <th class="column4">2:00</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">05/10/2016</th>
+                                    <th class="column2">Suite changement de FAI (ORANGE/OLEANE) -</th>
+                                    <th class="column3">14:40</th>
+                                    <th class="column4">17:00</th>
+                                    <th class="column4">2:20</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">06/10/2016</th>
+                                    <th class="column2">Installation des bornes d'accès machines atelier TR60</th>
+                                    <th class="column3">15:00</th>
+                                    <th class="column4">17:00</th>
+                                    <th class="column4">2:00</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">06/10/2016</th>
+                                    <th class="column2">Installation des bornes d'accès machines atelier TR60</th>
+                                    <th class="column3">15:00</th>
+                                    <th class="column4">17:00</th>
+                                    <th class="column4">2:00</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">07/10/2016</th>
+                                    <th class="column2">Installation des dernières mises à jour sur serveur de donnée</th>
+                                    <th class="column3">14:00</th>
+                                    <th class="column4">14:30</th>
+                                    <th class="column4">0:30</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">07/10/2016</th>
+                                    <th class="column2">Maintenance Serveur</th>
+                                    <th class="column3">10:25</th>
+                                    <th class="column4">11:00</th>
+                                    <th class="column4">0:35</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">08/10/2016</th>
+                                    <th class="column2">Déballage / Installation d'un traceur HEWLETT-PACKARD format A0</th>
+                                    <th class="column3">9:00</th>
+                                    <th class="column4">10:15</th>
+                                    <th class="column4">1:15</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">08/10/2016</th>
+                                    <th class="column2">Paramétrage réseau du Traceur HEWLETT-PACKARD Format A0</th>
+                                    <th class="column3">9:30</th>
+                                    <th class="column4">10:30</th>
+                                    <th class="column4">1:00</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">09/10/2016</th>
+                                    <th class="column2">Mise en place d'un routage entre sites</th>
+                                    <th class="column3">14:00</th>
+                                    <th class="column4">15:15</th>
+                                    <th class="column4">1:15</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">09/10/2016</th>
+                                    <th class="column2">Connexion à distance sur poste sylvain pour vérification domaine</th>
+                                    <th class="column3">17:35</th>
+                                    <th class="column4">17:50</th>
+                                    <th class="column4">0:15</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">10/10/2016</th>
+                                    <th class="column2">Remplacement du Poste Jacques</th>
+                                    <th class="column3">9:30</th>
+                                    <th class="column4">10:30</th>
+                                    <th class="column4">1:00</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">10/10/2016</th>
+                                    <th class="column2">Mesure débit ascendant /descendant SDSL entre les deux sites (Redon/ST JACUT)</th>
+                                    <th class="column3">9:30</th>
+                                    <th class="column4">10:30</th>
+                                    <th class="column4">1:00</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">11/10/2016</th>
+                                    <th class="column2">Réccupération des journaux de débit SDSL</th>
+                                    <th class="column3">12:15</th>
+                                    <th class="column4">12:30</th>
+                                    <th class="column4">0:15</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">12/10/2016</th>
+                                    <th class="column2">Micro coupures sur switch principal - Remplacement du switch - Vérification fonctionnement</th>
+                                    <th class="column3">8:15</th>
+                                    <th class="column4">9:20</th>
+                                    <th class="column4">1:05</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">13/10/2016</th>
+                                    <th class="column2">Baie de Brassage : Ré organisation de la Baie</th>
+                                    <th class="column3">9:00</th>
+                                    <th class="column4">10:30</th>
+                                    <th class="column4">1:30</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">14/10/2016</th>
+                                    <th class="column2">connexion à distance sur serveur pour vérification</th>
+                                    <th class="column3">11:50</th>
+                                    <th class="column4">12:00</th>
+                                    <th class="column4">0:10</th>
+                                </tr>
+
+                                <tr>
+                                    <th class="column1">15/10/2016</th>
+                                    <th class="column2">Remplacement de la Batterie de l'onduleur Baie de brassage</th>
+                                    <th class="column3">17:30</th>
+                                    <th class="column4">10:45</th>
+                                    <th class="column4">0:15</th>
+                                </tr>
+    
+        
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+    
+            </div>
+                
+    
+        </div>
+
+    </section>
+
+
+
+    <script src="./JS/script.js"></script>
+
+    
+</body>
+</html>
